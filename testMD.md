@@ -1,8 +1,7 @@
 #Dokumentation Lernapp #peat
 Erlerntes spielend wiederholen und nie wieder vergessen!
 
-
-
+![peat](https://github.com/andreasmosig/peat/blob/master/res/drawable-hdpi/ic_launcher.png)
 
 ###Version: v1.0.1
 ###Ausgabe: 1
@@ -12,45 +11,8 @@ Erlerntes spielend wiederholen und nie wieder vergessen!
 ###Stand: 03.07.2016
 
 ###Beuth Hochschule für Technik Berlin, Wirtschaftsinformatik, 4. ###Semester, Sommersemester 2016
-
-#Gliederung
-
-#1. Einleitung
-##1.1. Problemstellung und Zielsetzung der Arbeit (fertig | Andi)
-##1.2. Projekt-Stammdaten (fertig | Andi)
-##1.3. Projektidee, -ziel und -plan (fertig | Thomas)
-##1.4. Vorgehensweise (fertig | Thomas)
-#2. Vorbetrachtungen (IST-Analyse)
-##2.1. Theoretische Aspekte einer Lernsoftware (fertig | Thomas)
-##2.2. Vision und Geschäftsmodell (fertig | Thomas)
-##2.3. Marktanalyse (fertig | Thomas)
-#3. Produktdefinition und Systementwurf (SOLL-Konzept)
-##3.1. Requirements (fertig | Thomas, Andi)
-##3.2. Design und Architektur (fertig | Andi)
-##3.3. Konzept der Qualitätssicherung (fast fertig | Thomas, Andi, Steven)
-#4. Umsetzung (fast fertig | Andreas)
-##4.1. Plattform (fertig | Thomas, Andi, Steven)
-##4.2. GUI (fast fertig | Thomas, Andi)
-##4.3. Logik (fast fertig | Thomas, Andi, Steven)
-##4.4. Persistenz (fast fertig | Steven, Andi)
-##4.5. Versionierung (fertig | Andi)
-#5. Schlussbetrachtung
-##5.1. Zusammenfassung (fast fertig | Thomas, Andi, Steven)
-##5.2. Erkenntnisse (fertig | Andi)
-##5.3. Ausblick (fertig | Andi)
-#6. Weiterführende Links
-#7. Glossar
 
 
-Legende zur Formatierung:
-# 1. Ebene
-## 2. Ebene
-### 3. Ebene
---- Trennlinie
-* Aufzählung
-Bild einbinden
-![peat](https://github.com/andreasmosig/peat/blob/master/res/drawable-hdpi/ic_launcher.png)
-**wort** Formatierung bold
 #1. Einleitung
 ##1.1. Problemstellung und Zielsetzung der Arbeit (fertig | Andi)
 Das **Lerngebiet** des Softwareentwicklungsprojektes erstreckt sich über viele Aspekte der Softwaretechnik, d.h. u.a. in der praktischen Anwendung von Modellierungsprachen (wie z.B. [UML](https://de.wikipedia.org/wiki/Unified_Modeling_Language) sowie von Vorgehensmodellen der Softwareentwicklung (z.B. [SCRUM](https://de.wikipedia.org/wiki/Scrum).
