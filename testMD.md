@@ -2,55 +2,6 @@
 Erlerntes spielend wiederholen und nie wieder vergessen!
 
 
-
-
-###Version: v1.0.1
-###Ausgabe: 1
-###Autoren/Entwickler:
-###Steven Pawellek, Thomas Ricklinkat, Andreas Mosig
-###Kontakt: mailtopeat@gmail.com
-###Stand: 03.07.2016
-
-###Beuth Hochschule für Technik Berlin, Wirtschaftsinformatik, 4. Semester, Sommersemester 2016
-
-#Gliederung
-
-#1. Einleitung
-##1.1. Problemstellung und Zielsetzung der Arbeit
-##1.2. Projekt-Stammdaten
-##1.3. Projektidee, -ziel und -plan
-##1.4. Vorgehensweise
-#2. Vorbetrachtungen (IST-Analyse)
-##2.1. Theoretische Aspekte einer Lernsoftware
-##2.2. Vision und Geschäftsmodell
-##2.3. Marktanalyse
-#3. Produktdefinition und Systementwurf (SOLL-Konzept)
-##3.1. Requirements
-##3.2. Design und Architektur
-##3.3. Konzept der Qualitätssicherung
-#4. Umsetzung
-##4.1. Plattform
-##4.2. GUI
-##4.3. Logik
-##4.4. Persistenz
-##4.5. Versionierung
-#5. Schlussbetrachtung
-##5.1. Zusammenfassung
-##5.2. Erkenntnisse
-##5.3. Ausblick
-#6. Anhang & weiterführende Links
-#7. Glossar
-
-
-Legende zur Formatierung:
-# 1. Ebene
-## 2. Ebene
-### 3. Ebene
---- Trennlinie
-* Aufzählung
-Bild einbinden
-![peat](https://github.com/andreasmosig/peat/blob/master/res/drawable-hdpi/ic_launcher.png)
-**wort** Formatierung bold
 #1. Einleitung
 ##1.1. Problemstellung und Zielsetzung der Arbeit
 Das **Lerngebiet** des Softwareentwicklungsprojektes erstreckt sich über viele Aspekte der Softwaretechnik, bspw. in der praktischen Anwendung von Modellierungsprachen (wie z.B. UML) sowie von Vorgehensmodellen der Softwareentwicklung (z.B. Scrum).
@@ -62,6 +13,7 @@ Das konkrete **Projektziel** war das Entwickeln einer Implementierungsidee für 
 Das **Team \#peat** bestand zu Beginn, d.h. in der Findungsphase einer Vision, noch aus zwei Mitgliedern. Schnell wurde klar, dass die gestellten Anforderungen an das Projekt noch eine weitere Kraft erfordern würden. Im Zuge der finalen Festlegung der Idee sowie der Gruppe, galt es die nächsten Ziele und Meilensteine zu definieren. Ein [Exposé](https://github.com/andreasmosig/peat/blob/master/doc/EXPOSE.md) sollte die ersten Weichen stellen. Hierin wurden Anforderungen, theoretische Grundlagen, technische Aspekte, wie z.B. Architektur und Entwicklungsumgebung sowie Meilensteine abgesteckt.
 
 Die **Statusberichte** wurden alle ein bis zwei Wochen per E-Mail an den BA samt der Verlinkungen zu den Projektmanagement- sowie Versionsverwaltungsanwendungen geschickt (s. [6.][#6. Anhang & weiterführende Links]).
+
 ##1.2. Projekt-Stammdaten
 ####a) Gruppenmitglieder
 * Thomas Ricklinkat (s58372@beuth-hochschule.de, Matr.-Nr. 821644)
@@ -86,6 +38,7 @@ Die **Statusberichte** wurden alle ein bis zwei Wochen per E-Mail an den BA samt
 * Für die Erstellung des konzeptuellen und logischen Datenbankschemas wurde der DBDesigner-Fork verwendet und daraus das entsprechende SQL-DDL-Skript erzeugt und als Klasse in Eclipse eingebunden, da in der Entwicklungsumgebung bereits Bibliotheken zum Ansteuern der SQLite-Datenbank vorhanden gewesen sind.
 
 * Sonstige Tools waren Modellierungsprogramme, wie ArgoUML und UMLet, welche der theoretischen Konzeption der UML-Diagramme dienten (u.a. Use Cases, Paket-, Deployment- und Komponentendiagramm). Die Versionierung erfolgte über die Git-Shell von GitHub.
+
 ##1.3. Projektidee, -ziel und -plan
 Die **Implementierungsidee** für das (virtuelle) Startup \#peat entstand aus einem studentischen Grundbedürfnis (Lernen) sowie der Erfahrung heraus, gefestigtes Wissen länger zu behalten, als ungefestigtes Wissen. Daher lag es nahe, eine Anwendungssoftware zu entwickeln, die Lerninteressierte dabei unterstützt, erlerntes Wissen durch Wiederholung in **Frageform** zu festigen und damit den Lernerfolg langfristig zu maximieren.
 
@@ -126,6 +79,7 @@ Wie in Punkt 1.1 bereits erwähnt, war das vorrangige **Projektziel** das Entwic
 * Sprint 18) Abgabe und Präsentation (08.07.2016)
 
 Neben den inhaltlichen Aufgaben gehörte die **Projektkommunikation** mit dem BA als projektbezogene Aufgabe mit zu den Anforderungen: Während der gesamten Laufzeit des Projektes sollte es mit dem BA einen regelmäßigen (mindestens alle 1-2 Wochen) Austausch in Form eines [Protokolls](https://github.com/andreasmosig/peat/blob/master/doc/PROTOKOLLE.md) sowie eines [Statusberichtes](https://github.com/andreasmosig/peat/blob/master/doc/STATUSBERICHTE.md) geben.
+
 ##1.4. Vorgehensweise
 Die Systementwicklung fand entsprechend der Projektgröße agil und hinsichtlich der iterativen Entwicklung eines Prototyps (Prototyping) explorativ und evolutionär statt. Sie sollte nach Vorgabe durch den Auftraggeber (BA) der Scrum-Methode folgen. Die in der Theorie eindeutig verteilten Rollen des Product Owners, des Scrum Masters, des Teams und ggf. weiterer externer Rollen war im Rahmen dieses Projektes nicht immer eindeutig bestimmt. Es kam vor, dass alle Teilnehmer sporadisch in die Rolle des Product Owners geschlüpft sind oder jedes Teammitglied spontan in die Rolle des Scrum Masters gewechselt ist. Zu allen Zeitpunkten gab es jedoch immer den Product Owner und das Team.
 
@@ -142,6 +96,7 @@ Der Entwicklungsprozess zu \#peat richtete sich nach dem Scrum-Prozess:
 In der ursprünglichen Planung sollte der Scrum-Prozess durch das Tool easyBacklog unterstützt werden. Das wurde zu Beginn des Projektes auch versucht, stellte sich jedoch schnell für das Projekt als zu umständlich heraus. Die weitreichenden Funktionen von easyBacklog eignen sich besser für größere Projekte und ein mit easyBacklog immer aktuell gepflegtes Backlog hätte in diesem Projekt eher ein ressourcenbindenden Dokumentationscharakter gehabt. Daher wurde für den weiteren Verlauf auf dieses Tool verzichtet.
 
 ![Auszug aus dem easyBacklog](https://github.com/andreasmosig/peat/blob/master/doc/DOKU/auszug-easyBacklog.png)
+
 #2. Vorbetrachtungen (IST-Analyse)
 ##2.1. Theoretische Aspekte einer Lernsoftware
 Für den Entwurf des Datenbankschemas sowie die Modellierung der Wiederholungslogik war es zunächst wichtig, sich in einem angemessenen Umfang mit dem Sachgebiet vertraut zu machen und die folgenden zentralen Fragen zu beantworten:
@@ -163,6 +118,7 @@ Für \#peat sind alle genannten Fragekategorien theoretisch wichtig und relevant
 Hinsichtlich des optimalen **Wiederholungsintervalls** gibt die [Vergessenskurve](https://de.wikipedia.org/wiki/Vergessenskurve) erste wichtige Anhaltspunkte für die spätere Modellierung des Wiederholungsalgorithmus, denn sie veranschaulicht den Grad des Vergessens im Zeitverlauf. Aus ihr lässt sich aufgrund zahlreicher wissenschaftlicher Studien ableiten, dass durch Wiederholung des Lernstoffes der Grad des Vergessens verringert werden kann, wobei der Abstand der Zeitpunkte der Wiederholung einen relevanten Einfluss hat. Der sogenannte [Spacingeffekt](http://lexikon.stangl.eu/9382/spacing-effect-intervall-effekt/) besagt, dass Wissen besser erinnert wird, wenn zwischen der Erstaufnahme und der ersten bzw. den folgenden Wiederholung(en) ein größerer Zeitraum liegt. In der Literatur zu Lernmethoden finden sich diesbezüglich u.a. konkrete [Empfehlungen](https://www.uni-due.de/edit/selbstmanagement/content/content_k6_2.html): “Weitere Repetitionen sollen nach 24 Stunden, einer Woche, einem Monat, einem halben Jahr erfolgen.”
 
 Diese Empfehlungen sind für ein erstes Prototyping bzw. für den Anfang sehr praktisch und lassen sich direkt in einen Wiederholungsalgorithmus übertragen. Eine Vielzahl an Forschungsergebnissen ([Wiederholungsintervall](http://www.lac.ane.pl/pdf/5409.pdf), [SuperMemo](https://en.wikipedia.org/wiki/SuperMemo#Algorithms)) auf diesem Gebiet legt jedoch eine differenziertere Betrachtung nahe; nicht zuletzt mit Blick auf die spätere [USP](https://de.wikipedia.org/wiki/Alleinstellungsmerkmal) der Anwendung. Daneben finden sich auch Informationen zu konkreten, [frei verfügbaren Algorithmen](https://www.supermemo.com/english/algsm11.htm), die jedoch den zeitlichen Rahmen dieses Projektes sprengen würden und damit in den Ausblick gehören.
+
 ##2.2. Vision und Geschäftsmodell
 Die **Vision** zu \#peat ist, das geliebte Lerntool schlechthin für Wissbegierige zu sein.
 
@@ -186,6 +142,7 @@ Die für den Erfolg notwendigen Investitionen bedürfen eines tragfähigen **Ges
   * denkbar ist auch eine modulare Erweiterung (z.B. neue Frage-Wiederholungslogik), die je Update kostet
 * Bezahl-App: jeder Download kostet (beginnend ab einer bestimmten Zahl an Usern)
 * Marktplatzmodell (In-App-Kauf): Wissensträger können Inhalte in Form von Paketen oder Abonnements bereitstellen, z.B. Wissensgebiet “UML”. Diese Pakete bzw. Abonnements kosten je Download. Davon geht ein Teil an \#peat, der Rest an den Verfasser.
+
 ##2.3. Marktanalyse
 Da der Projektfokus auf dem Programmieren lag, geht es bei der Marktanalyse eher um eine grobe Einordnung der Implementierungsidee in den Markt der Anwendungssoftware.
 
@@ -198,7 +155,9 @@ In diesem Bereich gab es in den Appstores von Apple und Google zum Zeitpunkt des
 * [AnkiDroid Karteikarten](https://ankidroid.org)
 
 Die Hürden für einen erfolgreichen Einstieg in diesen Markt liegen durch die hohe Zahl der Anbieter bereits etwas höher. Jedoch scheinen sich die aktuellen Angebote auf den ersten Blick an Endverbraucher zu richten. Ggf. ist die Entwicklung eines B2B-Modells eine aussichtsreiche Überlegung.
+
 #3. Produktdefinition und Systementwurf (SOLL-Konzept)
+
 ##3.1. Requirements
 Im Rahmen des **Requirements Engineering** geht es im Allgemeinen um die Frage, welche Anforderungen an das zu erstellende Softwaresystem existieren. Da diese Anforderungserhebung immer im Zusammenhang mit bestimmten Personengruppen steht, ist es erforderlich sich mit den (Ziel-)Gruppen bzw. Stakeholdern auseinanderzusetzen, an die \#peat sich richtet bzw. die von \#peat in irgendeiner Form betroffen sind.
 
@@ -248,6 +207,7 @@ Mit Blick auf das Projektziel (ausführbarer Prototyp) war es notwendig, diese s
 * Kann II: Webbasierte Desktop-Version - Web und Datenbank
 
 Nichtfunktionale Kriterien wurden im Rahmen dieses Projektes nicht berücksichtigt und werden im Ausblick kurz angerissen.
+
 ##3.2. Design und Architektur
 In der Analysephase galt es zunächst herauszufinden, aus welchen Komponenten das System bestehen würde und welche (nicht-) funktionalen Anforderungen die Komponenten erfüllen sollen. Wie in dem vorangegangenen Kapitel zu lesen ist, hat man sich auf bestimmte Grade der Verbindlichkeit hinsichtlich der zu erfüllenden Kriterien der Lernapp konzentriert. In einem agilen Projekt ist es wichtig, einen Schwerpunkt zu setzen.
 
@@ -298,6 +258,7 @@ Die drei Komponenten sind:
 
 
 Dieses Muster erlaubte eine gewisse Trennung der Rollen im Projektteam. Es gab UI-Designer (A. Mosig, T. Ricklinkat) und Entwickler (T. Ricklinkat, S. Pawelleck). Die Designer (v.a. A. Mosig) konnten ihren Fokus auf die sogenannte Usability sowie User Experience setzen, was sich insbesondere in der Anlage und Layout-Gestaltung über XML umsetzte, und die Entwickler die UI- (v.a. T. Ricklinkat) sowie Datenbank-Logik (v.a. S. Pawellek) schreiben resp. in Java programmieren. Daraus formte sich in effizienter Arbeitsteilung die lauffähige Anwendung \#peat.
+
 ##3.3. Konzept der Qualitätssicherung
 Da der Projektfokus auf dem Programmieren lag, geht es in diesem Punkt weniger um die Prozessqualität als vielmehr um die Qualität der Software an sich. Das Hauptinstrument zur Sicherstellung und Erhöhung der Softwarequalität sind Softwaretests, also automatische oder manuelle Verfahren zur Verifikation und Validierung von Software.
 
@@ -329,6 +290,7 @@ Ein wichtiger Punkt beim Exception Handling ist das Auffangen von und das Umgehe
 Eingesetzt in jede Activity, lieferte dieser Aufruf mittels der CrashActivity den relevanten Auszug aus dem Log (-Cat) der Android-Entwicklungsumgebung sowie Informationen zum verwendeten Endgerät. Hieraus ließ sich unmittelbar auf die Stelle im Code verweisen, die es zu debuggen galt.
 
 **Perspektivisch** sollte bei hinreichend hoher Anzahl der Testfälle eine Testsuite angelegt, also die Testfälle in ein eigenes Package ausgelagert werden. Für Android-Apps stehen darüberhinaus auch Testtools zur Verfügung wie z.B. Testdroid, einem Cloud-Service, für Installations- und JUnit-Tests. Für Last- und Performance-Tests gibt es ebenfalls Dienstleister, z.B. [NeoLoad](http://www.neotys.de/solutions/mobile-load-testing).
+
 #4. Umsetzung
 Wie bereits eingangs geschildert, war die Vorgabe des BA, das Projekt iterativ und agil anzugehen. Daher wurde im Anschluss an die kurze aber intensive Analysephase, welche u.a. das Erzeugen von Use Cases in easyBacklog sowie weiteren Modellen und Diagrammen zur Modellierung des Aufbaus und der Anforderungen an das zu entwickelnde System beinhaltete, direkt die Designphase inkl. Prototyping angesiedelt. Es wurden erste Funktionen (Splash-Seite inkl. Sound, Titel sowie zwei erste Quizz-Buttons (quiz, score) integriert, welche aber zunächst nur zur Orientierung dienten.
 
@@ -339,6 +301,7 @@ Eine elementare Erweiterung - und ebenfalls Muss-Kriterium der App - sollte die 
 Darauf aufbauend erfolgten weiterhin regelmäßige Tests und Erweiterungen, um die anfangs an das Projekt gestellten Anforderungen sowie Muss- und Soll-Kriterien in Form der modellierten Use Cases zu erfüllen.
 
 Schließlich konnte ein lauffähiger Abgabe-Prototyp final getestet und erzeugt sowie die Enddkumentation des Projektes \#peat abgeschlossen werden.
+
 ##4.1. Plattform
 Mit der Entscheidung für Android als Plattform wird neben der Programmiersprache Java auch die Architektur der Anwendung implizit festgelegt. So gibt das Applikation-Framework des Android-Betriebssystems die generelle Architektur vor, [z.B.](http://www.pcwelt.de/ratgeber/Smartphone-Grundlagen-Technik-erklaert-Google-Android-Architektur-im-Detail-1005294.html):
 
@@ -357,6 +320,7 @@ Die für Android bevorzugte Entwicklungsumgebung stellt Eclipse dar. Daher wurde
 * SDK-Manager (Android Software Development Kit)
 * AVD-Manager (Android Virtual Device-Manager, Emulator)
 * LogCat, Lint, etc.
+
 ##4.2. GUI
 Die Grafische Benutzeroberfläche hat die Aufgabe, Anwendungssoftware mittels Steuerelemente (Widgets), bedienbar zu machen. Sie ist sozusagen die Schnittstelle zwischen Mensch und Maschine und bedarf daher eine besonderen Betrachtung. Denn findet sich der Benutzer innerhalb der Anwendung nicht zurecht, oder wird von dieser nicht angesprochen (Usability, User Experience), ist die Erfüllung aller funktionalen Anforderungen wenig wert. Beispielhaft zeigen die folgenden Screenshots die Komponenten der GUI aus Sicht des Anwenders:
 
@@ -368,6 +332,7 @@ Die Grafische Benutzeroberfläche hat die Aufgabe, Anwendungssoftware mittels St
 
 * Innerhalb des Quizz sowie aus der Startseite der App heraus gelangt der Benutzer zu den Settings der App (EinstellungenActivity). In Version **v1.0.1** wurden die Menüpunkte der Einstellungen noch mit keiner Logik versehen. Ab Version **v2.0.1** sollen sich u.a. die Themen und Benutzer verwalten lassen. Befindet sich eine Komponente, wie z.B. die übrigen Fragentypen, noch in Entwicklung, erscheint standardmäßig ein Hinweis (UnderConstruction).
 ![SettingsUserConstruction](https://github.com/andreasmosig/peat/blob/master/doc/DOKU/SettingsUserConstruction.png)
+
 ##4.3. Logik
 Das bereits beschriebene Architektur-Muster der Android-Entwicklungsumgebung ([MVVM](https://de.wikipedia.org/wiki/Model_View_ViewModel)) ermöglicht es, dass zu jeder Komponente der App, in dem Fall zu jeder Activity, jeweils eine eigene Struktur mit eigenem Layout gebaut werden kann (XML). In der Android-Manifest-XML-Datei wird u.a. die Hierarchie der Komponenten definiert und somit bspw. festlegt, welche Activity die Startseite der App darstellt. Die objektorientierte Programmierung wiederum stellt den globalen Zugriff und die Wiederverwendung von Methoden und (Geschäfts-) Objekten sicher (Java). Sie verkörpert demnach die Geschäfts- oder Anwendungslogik des Systems und implementiert somit die eigentliche Problemstellung und technischen Belange an die App.
 Nachstehend folgt ein Überblick über die wichtigsten Java-Klassen, aufbauend auf der Anforderungsphase sowie den Entwürfen der Designphase. Das Modell als Datenschicht wird durch die Klassen PeatDataSource, DBHelper und der dazugehörenden SQLite-Datenbank umgesetzt. Alle anderen Klassen sind der Modelview zuzuordnen und beinhalten die UI-Logik.
@@ -389,6 +354,7 @@ Nachstehend folgt ein Überblick über die wichtigsten Java-Klassen, aufbauend a
 * PeatDataSource > Data Access Object und für Verwalten der Daten verantwortlich
 * PeatDbHelper > Hilfsklasse mit deren Hilfe die SQLite-Datenbank erstellt wird
 * Question > Konstruktor-Klasse für das Frage-/Antwort-Objekt
+
 ##4.4. Persistenz
 Zu Beginn, d.h. für den ersten lauffähigen Prototyp in der Designphase, lag der Fokus darauf, die ersten Komponenten abzustecken und eine Idee zu entwickeln, wie die Version **v1.0.1** zum Abgabetermin im Juli aussehen könnte. Demnach wurden die ersten Fragen in ein starres Array (als Mockup) geschrieben, welches wiederum mittels eines if-Statements ausgelesen wurde. Nachstehende Abbildungen zeigen beispielhaft erläutertes Szenario:
 
@@ -434,6 +400,7 @@ Die zwei relevantesten Methoden hinsichtlich der Datenspeicherung und -bereitste
 > Question PeatDataSource.getNextQuestion(Boolean backButtonPush)
 
 Die Methode getNextQuestion wurde doppelt implementiert. Dies ermöglicht den Aufruf mit und ohne Übergabeparameter. Wenn kein Parameter übergeben wird, so wird automatisch ein Default übernommen. Es wird backButtonPush= false gesetzt und damit einfach die nächste Frage ausgegeben. Wird allerdings ein true beim Aufruf übergeben, so werden die zuletzt angezeigten Fragen angezeigt. Dies ermöglicht eine Navigation in der GUI. Außerdem wird der Code sowohl für die nächste als auch die letzte Frage verwendet. Dies steigert die Wiederverwendung und den Anpassungsaufwand.
+
 ##4.5. Versionierung
 Das Versions- und Release-Management sind zentraler Bestandteil des Projektmanagements. Dabei geht es darum, dass das gesamte Projekt in seinem Wachstum begleitet wird. Korrekte Auslieferungen und Codezustände müssen jederzeit sichergestellt und Entwicklungslinien stets nachvollzogen werden können.
 
@@ -444,6 +411,7 @@ Die Versionskontrolle sollte im Optimalfall Teil eines Gesamtzyklus (Continious 
 Das Projekt hatte nichtsdestotrotz dank der iterativen und agilen Vorgehensweise und der das gesamte Projekt umfassenden Verwendung von GitHub zur Verwaltung aller Projektinhalte (Quellcode, Releases, Exposé, Protokolle, Dokumentation sowie aller sonstigen Einstellungen, Dateien und Zustände, die für das Funktionieren des Systems und die Projektorganisation relevant sind) zeitnah und jederzeit einen lauffähigen Code resp. Prototyp (Durchstich) zur Folge. Zusammengefasst nennt man die Summe der beschriebenen Systeme (Verions-, Release- und Konfigurationsmanagement) **Change Management**.
 
 In GitHub konnten ständig Snapshots auf Versionsstände ([Releases](https://github.com/andreasmosig/peat/releases)) vorgenommen werden. Dies geschah mittels des sogenannten [Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) über die Git-Shell. Hierüber wurden auch Konflikte beim Zusammenführen vom Code der einzelnen lokalen Repositories transparent gemacht und gelöst. Fehlerfreier Sourcecode wurde freigegeben und in das zentrale [Repository](https://github.com/andreasmosig/peat) übertragen. Zu Dokumentationszwecken konnte anhand der *commits* stets nachvollzogen werden, wer welche Änderung vorgenommen hat und welche *features* integriert worden sind. Zum Download lag jederzeit die letzte auf ihre Lauffähigkeit hin getestete Version von \#peat in einer Dropbox bereit: [Hol’ dir \#peat](https://www.dropbox.com/sh/8djn2di76w9jqga/AABS1uvujSAhcy7iVWHPvo9oa?dl=0)!
+
 #5. Schlussbetrachtung
 ##5.1. Zusammenfassung
 Was zu Beginn nur ein Spiel gewesen ist, könnte nun das Lernen vieler Schüler und Studenten, Auszubildenden und anderen Lerninteressierten erleichtern und vielleicht sogar Geschäftsleuten Freude bereiten.
@@ -452,6 +420,7 @@ Der erste Prototyp von \#peat ist zu einer lauffähigen Android-App entwickelt w
 
 \#peat ermöglicht das Abspeichern eigener Fragen und Antworten und deren Wiedergabe innerhalb des Quizz sowie ab Version **v2.0.1** eine Themen- und Benutzerverwaltung.
 Mit etwas Glück und dem richtigen Marketing wird \#peat nicht nur die Nummer 1 auf dem Markt der Lernapps sein. Auch die sich in Planung befindliche Website wird zur neuen Startseite unseres breiten *peers*.
+
 ##5.2. Erkenntnisse
 Im Zuge der Projektarbeit stellte sich heraus, nachdem anfänglich noch easyBacklog für die Anlage der Use Cases resp. asana für die Projektorganisation verwendet worden waren, dass die Arbeit mit Slack und moodle (Projektkommunikation und -organisation) und GitHub (Versionierung, Dokumentation) sowie das iterative Entwickeln und Testen in der Eclipse/Android-Umgebung völlig ausreichend, zufriedenstellend und insbesondere iterativ und agil waren. Es ließ sich viel effizienter arbeiten, da nebenher nicht viel dokumentiert und modelliert wurde. Im Nachhinein konnte festgestellt werden, dass die Teilprojekte und *subtasks* gleichermaßen erfüllt werden konnten, allein mit den zuletzt genannten Werkzeugen: Slack, moodle und GitHub.
 
@@ -499,6 +468,7 @@ Mögliche Erweiterungen der Nachfolgeversionen, beginnend bei **v2.0.1**, sind n
 * Compliance: Die Verwendung der App und der Website SOLL an die Akzeptanz eines Verhaltenskodex geknüpft sein.
 * Performance: Die Anwendung SOLL in der Lage sein, im ersten Jahr bis 500.000 User zu verwalten und in den darauf folgenden 3 Jahren bis zu 5 Millionen.
 * Community: Aus der Themen- und Nutzerverwaltung sowie der Bewertung von Fragen KANN, unterstützt durch eine webbasierte Lösung, der Gedanke von Contributors und Followern verfolgt werden.
+
 #6. Anhang & weiterführende Links
 * Rückblick
 * Aktueller Stand
@@ -506,6 +476,7 @@ Mögliche Erweiterungen der Nachfolgeversionen, beginnend bei **v2.0.1**, sind n
 * GitHub
 * Projektmanagement (asana)
 * Slack-Kanal
+
 #7. Glossar
 BA    Business Angel
 bspw.    beispielsweise
