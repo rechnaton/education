@@ -499,6 +499,7 @@ Mögliche Erweiterungen der Nachfolgeversionen, beginnend bei **v2.0.1**, sind n
 * Compliance: Die Verwendung der App und der Website SOLL an die Akzeptanz eines Verhaltenskodex geknüpft sein.
 * Performance: Die Anwendung SOLL in der Lage sein, im ersten Jahr bis 500.000 User zu verwalten und in den darauf folgenden 3 Jahren bis zu 5 Millionen.
 * Community: Aus der Themen- und Nutzerverwaltung sowie der Bewertung von Fragen KANN, unterstützt durch eine webbasierte Lösung, der Gedanke von Contributors und Followern verfolgt werden.
+
 #6 Anhang & weiterführende Links
 <a id="anhang"></a>
 * Rückblick
@@ -507,6 +508,7 @@ Mögliche Erweiterungen der Nachfolgeversionen, beginnend bei **v2.0.1**, sind n
 * GitHub
 * Projektmanagement (asana)
 * Slack-Kanal
+
 #7. Glossar
 BA    Business Angel
 bspw.    beispielsweise
